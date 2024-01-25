@@ -9,11 +9,13 @@ public class MevanParameterTest {
 	@Test
 	public void mevanTest()
 	{
-		String s = System.getProperty("browser");
+		String s = System.getProperty("b");
 		if(s.equalsIgnoreCase("chrome"))
 		{
+			System.out.println("hi iam zenkin parameter");
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.flipkart.com/");
+			
 		
 		}
 	}

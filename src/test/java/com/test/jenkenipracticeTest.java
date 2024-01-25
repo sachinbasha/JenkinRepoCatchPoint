@@ -4,10 +4,9 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class jenkenipracticeTest {
-
 	@Test
 	public void aTest() {
-		Reporter.log("ok iam present",true);
+		System.getProperties();
 	}
 	
 	@Test(groups="smoke")
@@ -23,5 +22,6 @@ public class jenkenipracticeTest {
 	public void aTest3() {
 		Reporter.log("ok iam regression 2",true);
 	}
+	
 	
 }
