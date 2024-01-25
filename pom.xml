@@ -4,6 +4,11 @@
   <artifactId>jenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+	  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.11.0</version>
+</dependency>
 	<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -46,5 +51,6 @@
  </build>
  </profile>
  </profiles>
+ 
    
 </project>
