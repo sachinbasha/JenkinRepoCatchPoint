@@ -10,4 +10,9 @@ public class JenkinPracticeTest {
 	{
 		System.out.println("sachinZenkinTest");
 	}
+	@Test
+	public void sachinTest1()
+	{
+		System.out.println("sachinZenkinTest");
+	}
 }
