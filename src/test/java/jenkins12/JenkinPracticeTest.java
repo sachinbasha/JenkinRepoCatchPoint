@@ -1,4 +1,4 @@
-package jenkins;
+package jenkins12;
 
 import org.testng.annotations.Test;
 
